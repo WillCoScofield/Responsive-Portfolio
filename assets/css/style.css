@@ -1,0 +1,290 @@
+/*About me Page */
+ 
+ .topBar{
+      
+      /* border: solid black; */
+      /* overflow: auto; */
+      margin-top: -1%;
+      margin-bottom: 1%;
+      width: 105%;
+      height: 9.4%;
+      background-color: #ffff;
+      border-bottom: 2px solid #cccccc;
+      margin-left: -2%;
+     
+  }
+
+  .header{
+    /* border: solid black; */
+    float: left;
+    background: teal;
+    color: white;
+    margin-left: 17.3%;
+    padding: 1.2%;
+    font-family: Georgia, Times, Times New Roman, serif;
+    margin-top: 0%;
+  }
+
+  .navBar{
+    color:#777777;
+    /* border: solid black; */
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 7%;
+
+  }
+
+  a {
+    text-decoration: none;
+    color: #777777;
+  }
+
+  a:hover{
+    color: blue;
+  }
+  
+    
+  .aboutMeSec{
+    width: 55%;
+    height: 55%;
+    margin: auto;
+    border: solid #cccccc;
+    overflow: auto;
+    margin-top: 3%;
+    padding: 1.5%;
+    background-color: #ffffff;
+    color: #777777;
+    
+
+  }
+
+  .AboutMe{
+    /* border: solid black; */
+    color: teal;
+    font-family: Georgia, Times, Times New Roman, serif;
+    border-bottom: 3px solid #cccccc;
+
+
+  }
+
+  #meImage{
+      margin-right: 1%;
+      width: 18%;
+      float: left;
+      border: solid #cccccc;
+      
+
+  }
+
+  #aboutPara{
+    color: #777777;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  }
+
+  .footer{
+    clear: both;
+    overflow: auto;
+    text-align: center;
+    width: 100%;
+    background:#666666 ;
+    margin-bottom: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-top: 5px solid teal;
+    min-height: 8%;
+    
+    
+    
+
+}
+
+/* html { 
+    background-image: url("assets/css/textured_paper.png") no-repeat center center fixed;  */
+    /* background: url(images/textured_paper.png) 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
+  /* } */
+
+body{
+    background: url("../images/textured_paper.png") center fixed;
+}
+
+   /*CONTACT PAGE */  
+
+.ContactSec{
+
+    border: 3px solid black;
+    width: 42%;
+    height: 70%;
+    margin: auto;
+    border: solid #cccccc;
+    /* overflow: auto; */
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1.5%;
+    float: left;
+    margin-left: -15.6%;
+    background-color: #ffffff;
+    
+}
+
+#contactText{
+    color: teal;
+    font-family: Georgia, Times, Times New Roman, serif;
+    border-bottom: 3px solid #cccccc;
+
+}
+
+
+#nameFill{
+    
+    display: block;
+    padding: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%; 
+    size: 500;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+#emailMessage{
+    
+    padding: 1%;
+    display: block;
+    margin-bottom: 1%;
+    margin-top: 1%; 
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+#message{
+   
+    display: block;
+    padding: 1%;
+    margin-bottom: 1%;  
+    margin-top: 1%;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif; 
+}
+
+#submitButt{
+    background: teal;
+    color: white;
+    width: 16%;
+    height: 7%;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.SocialMedia{
+
+    border: 3px solid #cccccc;
+    float: left;
+    padding: 2%;
+    margin: 3%;
+    margin-left: 8%;
+    background-color: #ffffff;
+}
+
+#ConnectText{
+    color: teal;
+    font-family: Georgia, Times, Times New Roman, serif;
+    border-bottom: 2px solid #cccccc;
+
+}
+
+
+
+
+/* 
+GALLERY PAGE */
+
+/* .imgContainer{
+    position: static;
+    width: 25%;
+    height: 10%;
+    border: 3px solid black;
+} */
+
+
+#textCont{
+    /* width: 25%;
+    background-color: teal;
+    color: white;    
+    border: 3px solid black; */
+    box-sizing: border-box;
+    border-bottom: 0;
+    background: teal;
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    padding: 1%;
+    width: 100%;
+    line-height: 30px;
+    margin-bottom: 1px;
+    font-weight: 300;
+    
+
+}
+
+.PortfolioSection{
+    border: 3px solid #cccccc;
+    margin: auto;
+    width: 55%;
+    height: 70%;
+    background-color: #ffffff;
+    margin-top: 2%;
+    padding: 1.5%;   
+    overflow: auto;
+
+
+
+    
+}
+
+.PortText{
+    color: teal;
+    font-family: Georgia, Times, Times New Roman, serif;
+    border-bottom: 3px solid #cccccc;
+
+
+}
+
+li{
+
+    width: 20%;
+    height: 35%;
+    overflow: auto;
+    position: relative;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 2%;
+    
+    
+}
+
+li img{
+    width: 100%;
+    height: 90%;
+    
+}
+
+
+
+
+@media screen and (max-width: 980px){
+    
+
+
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 640px){
+
+}
+
